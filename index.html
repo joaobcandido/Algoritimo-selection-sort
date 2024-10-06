@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritimo de ordenação</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">About</a>
+        </nav> 
+    </header>
+    <img class="image" src="selection sort.png" alt="">
+    
+    <div class="container">
+        <h1>Digite uma lista de numeros sem espaços</h1>
+        <form id="formulario">
+            <input type="text" id="lista" maxlength="10" placeholder="[Somente números]">
+            <button type="submit">Aplicar algoritimo</button>
+        </form>
+        <div class="resultado" id="resultado"></div>
+    </div>
+
+    <p class="descricao">Esse <a class="script" href="about.html">script.js</a> implementa o algoritmo de ordenação Selection Sort para ordenar um conjunto de números fornecidos pelo usuário. O algoritmo funciona encontrando o menor elemento em cada iteração e colocando-o no início da parte não ordenada do array.</p>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+:root{
+    --cor-1: #0B242B;
+    --cor-2: #D15E7D ;
+    --cor-3: #fdfafa;
+    --cor-4: #f05f0a;
+    --cor-5: #FE9025;
+    --cor-6: #BF3A65;
+    --cor-7: #d4d0d0;
+} 
+
+
+.cabecalho{
+    padding: 2% 45% 0% 0%;
+    
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+
+
+}
+
+.cabecalho__menu__link{
+    font-size: 2rem;
+    text-decoration: none;
+    color:var(--cor-5);
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--cor-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    font-size: 20px;
+    
+}
+.container {
+    background-color:var(--cor-3);
+    padding: 20px;
+    border-radius: 36px;
+    width: 60%;
+    text-align: center;
+    border: 15px solid var(--cor-4) ;
+    margin: 0 20px 80px 0px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+button {
+    width: 93%;
+    padding: 10px;
+    background-color: var(--cor-2);
+    color: rgb(15, 15, 15);
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: var(--cor-6);
+}
+
+.image{
+    height: 40%;
+}
+.image1{
+    height: 70%;
+}
+
+.resultado{
+    font-size: 35px;
+}
+.descricao{
+    color:var(--cor-7);
+    margin:  0 20% ;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.script{
+    text-decoration: none;
+    color: rgb(240, 98, 11);
+}
+
+
+
+@media (max-width:1000px){
+
+.image{
+    height: 20%;
+} 
+.image1{
+    height: 28%;
+}
+.container{
+    width: 60%;
+    border: 6px solid var(--cor-4) ;
+    margin: 0 0px 0px 0px;
+}
+h1{
+    font-size: 18px;
+}
+body{
+    font-size: 14px;
+}
+.descricao{
+    margin:  0 5% ;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.cabecalho__menu__link{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:var(--cor-5);
+}
+input {
+    width: 85%;
+    font-size: 15px;
+    }
+
+button {
+    width: 93%;
+    font-size: 15px;
+}
+
+
+}
